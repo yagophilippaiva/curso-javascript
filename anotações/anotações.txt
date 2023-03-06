@@ -1,0 +1,56 @@
+Anotações
+    -em variaveis para numero é só colocar o numero e em escrita (conjunto de letras, numeros e simbolos) se caracteriza como string e precisa das aspas
+    -window.alert mostra pop up com mensagem onde unica interação é clicar em ok, serve de aviso
+    -window.confirm mostra pop up com msg, interação ok ou cancela
+    -window.prompt mostra pop up com msg, interação espaço para resposta
+    -var n1 = Number.parseInt(window.prompt('digite a sua idade'))// o comando window.promt retorna string
+      -var n2 = Number.parseInt(window.prompt('digite o ano que estamos'))// para retornar numero inteiro e fazer calculo add number.parseint ou number.parsefloat para numero real
+      -var s = n1 - n2
+    -window.prompt('você nasceu no ano '+ s)
+    -(number + number) adição
+    -(string + string) concatenação
+    - para mudar numero para string é só usar: string(numero ou var que ira ser convertida)
+    -para montagem de frases com variaveis da para usar o recurso `${} para inserir a var
+      para colocar quantidade de casas decimais usar .toFixed(quantidade de casas)
+- colocar o numero em moeda real n.toLocaleString('pt-BR',{style: 'currency', currency: 'BRL'})
+- operadores de calculo: % é resto de divisão inteira e ** é potenciação +soma -subtração *multiplicação /divisão
+- ordem de operadores: () - ** - /*% - +-
+- na operação de var pode ser usado o sinal de operação com = que ele faz atualização da var exemplo:
+n = 3
+n= n+1 igual n +=1
+- para soma e subtração podemos usar ++ e --
+- operadores relacionais > maior < menor >= maior ou igual <= menor ou igual == igual != diferente === identico 
+- operadores logicos ! negação && conjunção || disjunção
+! true -> false
+! false -> true
+
+&& true true -> true
+&& true false -> false
+&& false true -> false
+&& false false -> false
+
+|| true true -> true
+|| true false -> true
+|| false true -> true
+|| false false -> false
+
+- ternario 
+teste?true:false
+parecido com if else, testa uma coisa se for verdadeiro da um resultado e se for falso da outro resultado
+
+ordem de execução dos operadores: aritimetico ((),**,/*%,+-), relacionais, logicos (!,&&,||)
+
+- selecionar elemento por marca: getElementsByTagName()
+- selecionar elemento por id: getElementById()
+- selecionar elemento por nome: getElementsByName()
+- selecionar elemento por classe: getElementsByClassName()
+- selecionar elemento por seletor: querySelector()
+singular só o elemento em (), plural elemento()+[]com a posição
+id representada # class representada por .
+
+
+- developer.mozilla eventos de Dom
+
+- bloco é delimitado por {}
+
+- função é que determina o bloco function ação(parametro){}

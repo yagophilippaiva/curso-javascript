@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual pais você mora</title>
+    <style>
+        input{
+            width: 100px;
+            height: 50px;
+            font: normal 18px Arial;
+            color: black;
+        }
+        p1{
+            font: italic 18px Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Qual país você nasceu?</h1>
+    <p1>Digite aqui:</p1> <input type="text" name="text1" id="pais">
+    <input type="button" value="Confirmar" onclick="Verificar()">
+    <div id="resultado"></div>
+    <script>
+        function Verificar(){
+            var pais = window.document.getElementsByName('text1')
+            var res = window.document.getElementById('resultado')
+            if (pais =='555') {
+                res.innerHTML = 'você é br'          
+            } else {
+                res.innerHTML = 'gringo fedido'  
+            }
+        }
+    </script>
+    
+</body>
+</html>
